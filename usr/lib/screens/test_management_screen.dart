@@ -77,7 +77,7 @@ class _TestManagementScreenState extends State<TestManagementScreen> {
                           child: Text(month),
                         );
                       }).toList(),
-                      onChanged: (value) => setState(() => _selectedMonth = value),
+                      onChanged: (value) => setState(() => _selectedMonth = value ?? 'January'),
                     ),
                     const SizedBox(height: 16),
                     TextFormField(

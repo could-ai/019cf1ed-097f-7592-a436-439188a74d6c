@@ -112,7 +112,7 @@ class _MainLayoutState extends State<MainLayout> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Icon(Icons.local_floral, size: 48, color: Colors.white),
+                    const Icon(Icons.local_florist, size: 48, color: Colors.white),
                     const SizedBox(height: 8),
                     Text(
                       'Bloom Academy',

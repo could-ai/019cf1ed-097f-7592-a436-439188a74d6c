@@ -127,7 +127,7 @@ class DashboardScreen extends StatelessWidget {
             const Positioned(
               top: 10,
               right: 10,
-              child: Icon(Icons.local_floral, color: Color(0xFFF8BBD9), size: 16),
+              child: Icon(Icons.local_florist, color: Color(0xFFF8BBD9), size: 16),
             ),
           ],
         ),
